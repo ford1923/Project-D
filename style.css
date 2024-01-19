@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+/*Navigation Bar Code starts here */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: right;
+    border-color: solid;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    background-color: #111;
+    color: white;
+}
+
+.navbar .websitelogo a:hover {
+    background-color: white;
+}
+
+
+.websitelogo {
+    float: left;
+}
+/*Navigation Bar up to this point */
+
+/*Introduction Page Code starts here*/
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 100px;
+}
+.brifford {
+    border-radius: 50%;
+}
+
+.introduction {
+    padding: 100px;
+}
+
+.container-introduction {
+    margin-top: 140px;
+}
+/*Introduction Page up to this point*/
+
